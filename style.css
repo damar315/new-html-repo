@@ -1,0 +1,66 @@
+* {
+    border: 1px solid red;
+}
+
+/* universal selector */
+* {
+    color: orangered;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* type selector */
+header, p {
+color: blue;
+}
+
+/* id selector */
+#about p {
+    color: chartreuse;
+}
+
+/* class selector */
+.about-header {
+    text-align: center;
+}
+
+/*pseudo classes */
+#about ul li a:hover {
+    background-color: midnightblue;
+    color: magenta; 
+}
+
+/*header section*/
+#photo-profile {
+    height: 300px;
+}
+
+header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: orangered;
+    
+    margin: 10px 40px 20px 40px ;
+}
+
+/*about section*/
+#about {
+    width: 100%;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
