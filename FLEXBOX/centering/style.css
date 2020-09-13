@@ -36,9 +36,37 @@ p {
   Flexbox
 ==================================== */
 
-.container {
+/* .container {
+    display: flex;
+    height: 500px;
+} */
+
+/* CENTERING HORI & VERTICAL */
+
+/* Cara 1 */
+/* .container {
     display: flex;
     height: 500px;
 }
 
+.item {
+	align-self: center;
+	margin: auto;
+} */
 
+/* Cara 2 */
+/* .container {
+    display: flex;
+	height: 500px;
+	align-items: center;
+	justify-content: center;
+} */
+
+/* Cara 3 */
+.container {
+    display: flex;
+	height: 500px;
+}
+.item {
+	margin: auto;
+}
